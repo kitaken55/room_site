@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/qa.css">
+    <title>room_site</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>
+            <img src="./img/logo.png" alt="ロゴの画像">
+        </h1>
+        <nav>
+            <ul class="navi">
+                <li><a href="./index.html">About</a></li>
+                <li><a href="./news.html">News</a></li>
+                <li id="mark3"><a href="./qa.html">Q&A</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="top">
+        <h1><img src="./img/QA.png" alt="トップの画像"></h1>
+        <p>Q&A</p>
+    </div>
+
+    <main>
+        <div class="question">
+            <h1>よくある質問</h1>
+
+            <div id="question-action" class="question-first">
+                <h2>家具の取り置きは可能でしょうか</h2>
+                <ul class="question-click">
+                    <li>可能です。<br>取り置き期間は最大で3週間です。</li>
+                </ul>
+            </div>
+            <div id="question-action">
+                <h2>家具の取り置きは可能でしょうか</h2>
+                <ul class="question-click">
+                    <li>可能です。<br>取り置き期間は最大で3週間です。</li>
+                </ul>
+            </div>
+            <div id="question-action">
+                <h2>家具の取り置きは可能でしょうか</h2>
+                <ul class="question-click">
+                    <li>可能です。<br>取り置き期間は最大で3週間です。</li>
+                </ul>
+            </div>
+            <div id="question-action">
+                <h2>家具の取り置きは可能でしょうか</h2>
+                <ul class="question-click">
+                    <li>可能です。<br>取り置き期間は最大で3週間です。</li>
+                </ul>
+            </div>
+            <div id="question-action">
+                <h2>家具の取り置きは可能でしょうか</h2>
+                <ul class="question-click">
+                    <li>可能です。<br>取り置き期間は最大で3週間です。</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <h1>
+            <img src="./img/logo_white.png" alt="ロゴの画像">
+        </h1>
+        <nav>
+            <ul class="navi">
+                <li><a href="./index.html">About</a></li>
+                <li><a href="./news.html">News</a></li>
+                <li><a href="./qa.html">Q&A</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+    <!-- ボタンの操作 -->
+    <script>
+        $(function () {
+            //.accordion3の中のp要素がクリックされたら
+            $('#question-action h2').click(function () {
+                //クリックされた.accordion3の中のp要素に隣接するul要素が開いたり閉じたりする。
+                $(this).next('ul').slideToggle();
+            });
+        });
+    </script>
+
+    <!-- 書体の読み込み -->
+    <script>
+        (function (d) {
+            var config = {
+                kitId: 'qzm4mdy',
+                scriptTimeout: 3000,
+                async: true
+            },
+                h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
+        })(document);
+    </script>
+
+    <script>
+        (function (d) {
+            var config = {
+                kitId: 'qzm4mdy',
+                scriptTimeout: 3000,
+                async: true
+            },
+                h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
+        })(document);
+    </script>
+
+    <script>
+        (function (d) {
+            var config = {
+                kitId: 'qzm4mdy',
+                scriptTimeout: 3000,
+                async: true
+            },
+                h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
+        })(document);
+    </script>
+</body>
+</html>

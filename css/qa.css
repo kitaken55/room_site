@@ -1,0 +1,69 @@
+li {
+    list-style: none;
+}
+
+#mark3 {
+    border-bottom: 2px solid black;
+}
+
+.navi li:nth-of-type(3) {
+    border-bottom: 2px solid black;
+}
+
+.question {
+    width: 40%;
+    margin: 80px auto 200px auto;
+    color: #3B3B3B;
+    font-family: dnp-shuei-mincho-pr6n, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.top {
+    height: 100%;
+    position: relative;
+}
+
+.top p {
+    position: absolute;
+    left: 210px;
+    top: 180px;
+    color: white;
+    font-size: 3.0rem;
+    font-family: dnp-shuei-mincho-pr6n, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+/* 質問一覧 */
+
+.question h1 {
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: dnp-shuei-mincho-pr6n, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.question-first {
+    margin-top: 80px;
+}
+
+#question-action h2 {
+    cursor: pointer;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    letter-spacing: 5px;
+}
+
+.question-click {
+    display: none;
+    font-size: 0.8rem;
+    letter-spacing: 3px;
+}
+
+.position-click li {
+    position: absolute;
+    left: 0;
+    top: 0;
+}

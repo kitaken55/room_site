@@ -1,0 +1,73 @@
+#mark2 {
+    border-bottom: 2px solid black;
+}
+
+.top {
+    height: 100%;
+    position: relative;
+}
+
+.top p {
+    position: absolute;
+    left: 210px;
+    top: 180px;
+    color: white;
+    font-size: 3.0rem;
+    font-family: dnp-shuei-mincho-pr6n, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.img1 {
+    width: 334px;
+    height: 387px;
+    background-image: url("../img/news_chair1.png");
+}
+.img2 {
+    width: 334px;
+    height: 387px;
+    background-image: url("../img/news_chair2.png");
+}
+.img3 {
+    width: 334px;
+    height: 387px;
+    background-image: url("../img/news_chair3.png");
+}
+
+.news-content {
+    position: relative;
+}
+
+.img1:hover + .black {
+    display: block;
+}
+
+.img2:hover + .black {
+    display: block;
+}
+
+.img3:hover + .black, .news-content p:nth-of-type(3) {
+    display: block;
+}
+
+.black {
+    position: absolute;
+    height: 134px;
+    width: 334px;
+    bottom: 0;
+    background: black;
+    opacity: 0.5;
+    display: none;
+}
+
+.news-content:nth-of-type(2) {
+    left: 377px;
+}
+
+.news-content:last-child {
+    right: 0;
+}
+
+.news-content p {
+    position: absolute;
+}
